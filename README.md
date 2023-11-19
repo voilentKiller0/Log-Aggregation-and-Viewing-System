@@ -65,23 +65,25 @@ The Log Aggregation and Viewing System is a comprehensive solution for collectin
     
 ### Setup Instruction
 
-1. Clone the repository
+1. Download and install the [MongoDB](https://www.mongodb.com/try/download/enterprise)
+   
+2. Clone the repository
    ```
     git clone https://github.com/dyte-submissions/november-2023-hiring-voilentKiller0.git
    ```
-2. Install required library
+3. Install required library
    ```
     pip install -r requirements.txt
    ```
-3. Run the ingestor.py script to get log data.
+4. Run the ingestor.py script to get log data.
    ```
     python ./ingestor.py
    ```
-4. (Optional) Run dummyServers.py script to send the dummy log to the 3000 port number for getting dummy log data.
+5. (Optional) Run dummyServers.py script to send the dummy log to the 3000 port number for getting dummy log data.
    ```
     python dummyServer.py
    ```
-5. Run the app.py
+6. Run the app.py
    ```
     python app.py
    ```
